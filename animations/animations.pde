@@ -12,12 +12,12 @@ int animDelay;
 
 void setup() {
   size(640, 480);
-  
+
   // Give all my global variables (those created above the setup function) proper initial values
   waddleLength = 12;
   currentFrame = 0;
   animDelay = 10; //The higher this number, the slower the animation
-  
+
   // Allocate the amount of space I need (the number of frames in the animation)
   waddle = new PImage[waddleLength];
 

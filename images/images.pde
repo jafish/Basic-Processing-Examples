@@ -15,7 +15,7 @@ void setup() {
   //    put your image file in it.
   //   2. Drag the image file into the sketch window (at the bottom of the window, it should
   //    say "One file added to the sketch"
-  img = loadImage("walk1.gif");  // Load the image into the program  
+  img = loadImage("walk1.gif");  // Load the image into the program
 }
 
 void draw() {
@@ -24,3 +24,4 @@ void draw() {
   // Displays the image at point (width/4, height/4) at four times its size
   image(img, width/4, height/4, img.width*4, img.height*4);
 }
+
